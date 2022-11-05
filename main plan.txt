@@ -1,0 +1,3 @@
+main plan
+~~~~~~~~~~
+-start with fundamental design elements today
