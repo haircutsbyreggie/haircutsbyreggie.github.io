@@ -1,2 +1,38 @@
-/* --Burgandy: #ff00e1;
---Gold: #ffa3f4; */
+/*color pallette https://www.canva.com/colors/color-palettes/buddhist-monk/  */
+
+:root {
+    --Gold: #FBDD00;
+    --Tangerine: #E9A200;
+    --Scarlet: #B32800;
+    --Burgandy: #7F0000;
+}
+
+@Font-face {
+    font-family: MANTHAN;
+    src: url('fonts/Manthan-jEYYv.ttf');
+    font-family: baband;
+    src: url('fonts/Babang.ttf');
+    font-family: magnolia;
+    src: url('fonts/Magnolia-Grande-Regular.ttf');
+}
+
+.title {
+    font-family: magnolia;
+    /* font-size: large; */
+    /* font-size: xx-large; */
+    color: var(--Tangerine);
+    font-size: 70px;
+}
+
+.floater {
+    float: left;
+}
+
+.bg-burgandy {
+    /* background-color: var(--Burgandy); */
+}
+
+body {
+    --LinGrad: linear-gradient(-70deg, var(--Burgandy) 0%, var(--Scarlet) 100%);
+    background-image: var(--LinGrad);
+}
