@@ -18,7 +18,6 @@
 
 .title {
     font-family: magnolia;
-    /* font-size: large; */
     /* font-size: xx-large; */
     color: var(--Tangerine);
     font-size: 70px;
@@ -35,4 +34,9 @@
 body {
     --LinGrad: linear-gradient(-70deg, var(--Burgandy) 0%, var(--Scarlet) 100%);
     background-image: var(--LinGrad);
+}
+
+.contact-stuff {
+    border: 6px groove black;
+    /* border: 6px groove var(--Gold); */
 }
