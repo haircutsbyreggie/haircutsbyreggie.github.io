@@ -21,10 +21,7 @@
     /* font-size: xx-large; */
     color: var(--Tangerine);
     font-size: 70px;
-}
-
-.floater {
-    float: left;
+    /* font-size: 15vw; */
 }
 
 .bg-burgandy {
