@@ -35,7 +35,8 @@ body {
     animation: gradCycle 10s ease-in infinite alternate-reverse;
 }
 
-.contact-stuff {
+.contact-stuff>img {
     border: 6px groove black;
+    /* display: inline-block; */
     /* border: 6px groove var(--Gold); */
 }
